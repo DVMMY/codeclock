@@ -1,10 +1,10 @@
 var date, hours, minutes, seconds, colour, normTime, chosenTime;
  
 function toggle() {
-  if (btn.innerHTML == "HEX CLOCK") {
+  if (btn.innerHTML == "CODE CLOCK") {
     btn.innerHTML = "NORMAL CLOCK";
   } else {
-    btn.innerHTML = "HEX CLOCK";
+    btn.innerHTML = "CODE CLOCK";
   }
 }
 
@@ -32,7 +32,7 @@ function displayTime() {
 	//set backgroud colour
 	document.body.style.background = colour;
 
-	if(btn.innerHTML == "HEX CLOCK") {
+	if(btn.innerHTML == "CODE CLOCK") {
       chosenTime = normTime;
     }          else {
       chosenTime = colour;
