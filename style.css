@@ -15,24 +15,24 @@ body {
 	padding: 16px;
 	font: 20px/20px Lato;
 	position: absolute;
-    bottom: 25px;
-    right: 25px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    transition: background-color 0.2s ease-out,
+  	bottom: 25px;
+    	right: 25px;
+    	color: #fff;
+    	border: 1px solid #fff;
+    	border-radius: 5px;
+    	text-align: center;
+    	outline: none;
+    	text-decoration: none;
+    	transition: background-color 0.2s ease-out,
               color 0.2s ease-out;
 }
 
 #btn:hover {
 	background-color: #fff; /* fallback */
-    background-color: rgba(255, 255, 255, 0.4);
-    border-color: #fff; /* fallback */
-    border-color: rgba(255, 255, 255, 0.4);
-    transition: background-color 0.3s ease-in,
+    	background-color: rgba(255, 255, 255, 0.4);
+    	border-color: #fff; /* fallback */
+    	border-color: rgba(255, 255, 255, 0.4);
+    	transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
 }
 
@@ -43,5 +43,4 @@ body {
 	position: fixed; /* or absolute */
   	top: 50%;
   	left: 50%;
-  	transform: translate(-50%, -100%);
 }
